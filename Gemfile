@@ -12,6 +12,8 @@ gem 'jbuilder', '~> 2.7'
 gem 'bootsnap', '>= 1.4.4', require: false
 gem 'devise', '~> 4.8', '>= 4.8.1'
 gem 'net-smtp', '~> 0.3.1'
+gem 'net-pop', '~> 0.1.1'
+gem 'net-imap', '~> 0.2.3'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
